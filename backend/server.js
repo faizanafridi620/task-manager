@@ -1,6 +1,7 @@
 import express, { urlencoded } from "express";
 import dotenv from "dotenv";
 import mongoose, { mongo } from "mongoose";
+import cors from "cors";
 
 dotenv.config()
 
@@ -8,7 +9,7 @@ const app = express();
 app.use(express.json())
 app.use(urlencoded({ extended: true}))
 app.use(cors({
-    
+
 }))
 
 import authRoutes from "./routes/authRoutes.js"
