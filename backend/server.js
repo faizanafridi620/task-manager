@@ -11,6 +11,7 @@ app.use(urlencoded({ extended: true}))
 app.use(cors({
     origin: [
         "http://localhost:5173",
+        "https://task-manager-md-faizan-afridis-projects.vercel.app/"
     ],
     credentials: true
 }))
