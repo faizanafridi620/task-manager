@@ -11,7 +11,7 @@ app.use(urlencoded({ extended: true}))
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://task-manager-rho-orcin-50.vercel.app/"
+        "https://task-manager-rho-orcin-50.vercel.app"
     ],
     credentials: true
 }))
