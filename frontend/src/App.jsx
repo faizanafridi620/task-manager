@@ -1,5 +1,5 @@
 import ProtectedRoute from "./components/ProtectedRoute"
-import Dashboard from "./pages/Dashboard"
+import Dashboard from "./pages/DashBoard"
 import Register from "./pages/Register"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
